@@ -1,0 +1,31 @@
+{
+  "name": "mymcp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "mymcp": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc && chmod 755 build/index.js"
+  },
+  "files": [
+    "build"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.9.0",
+    "better-sqlite3": "^11.9.1",
+    "mongoose": "^8.13.2",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/mongoose": "^5.11.96",
+    "@types/node": "^22.14.1",
+    "typescript": "^5.8.3"
+  }
+}
